@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  OView.cpp
+  OthelloRemake.cpp
+  OMove.cpp
+  OExceptions.cpp
+  OBoard.cpp
+  Generating Code...
+  OthelloRemake.vcxproj -> C:\Users\Rone\Source\Repos\OthelloRemaking\Debug\OthelloRemake.exe
+  OthelloRemake.vcxproj -> C:\Users\Rone\Source\Repos\OthelloRemaking\Debug\OthelloRemake.pdb (Partial PDB)
