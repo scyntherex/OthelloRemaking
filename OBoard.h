@@ -1,7 +1,7 @@
 #ifndef __OTHELLOBOARD_H
 #define __OTHELLOBOARD_H
 
-#include "vector"
+#include <vector>
 #include "OMove.h"
 #include "stdafx.h"
 
@@ -108,7 +108,7 @@ private:
 	// OthelloView needs access to mBoard for printing
 	friend class OthelloView;
 
-	// The state of the game board, as in project 1
+	// The state of the game board
 	char mBoard[BOARD_SIZE][BOARD_SIZE];
 
 	// The next player to move (the next move in ApplyMove is this player's)

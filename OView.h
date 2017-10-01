@@ -1,4 +1,8 @@
+#ifndef __OTHELLOVIEW_H
+#define __OTHELLOVIEW_H
+
 #include "stdafx.h"
+#include <iostream>
 #include "OBoard.h"
 
 /*
@@ -19,3 +23,4 @@ private:
 	//This prints the visuals.
 	void PrintBoard(std::ostream &s) const;
 };
+#endif
