@@ -5,6 +5,3 @@ OthelloBoard::OthelloBoard()
 {
 }
 
-OthelloBoard::~OthelloBoard()
-{
-}

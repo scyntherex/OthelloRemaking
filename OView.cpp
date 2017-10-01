@@ -4,7 +4,3 @@
 OthelloView::OthelloView()
 {
 }
-
-OthelloView::~OthelloView()
-{
-}
