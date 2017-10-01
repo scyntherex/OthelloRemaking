@@ -8,11 +8,14 @@ board to a stream by overloading operator<<. Friend of OthelloBoard.
 */
 class OthelloView {
 public:
-	
+	OthelloView(OthelloBoard *b) : mOthelloBoard(b) {}
 
+	// Overloaded operator<< so you can << an OthelloView object to cout.
+	friend std::ostream& operator<<(std::ostream &, const OthelloView &);
 private:
 	//This is the Othello actual board pointer.
-	
-	//This prints the visuals
+	OthelloBoard *mOthelloBoard;
 
+	//This prints the visuals.
+	void PrintBoard(std::ostream &s) const;
 };

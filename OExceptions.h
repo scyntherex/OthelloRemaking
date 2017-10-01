@@ -4,7 +4,6 @@ class OthelloExceptions
 {
 public:
 	OthelloExceptions();
-	~OthelloExceptions();
 
 private:
 

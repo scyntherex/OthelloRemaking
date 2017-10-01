@@ -4,7 +4,3 @@
 OthelloExceptions::OthelloExceptions()
 {
 }
-
-OthelloExceptions::~OthelloExceptions()
-{
-}
