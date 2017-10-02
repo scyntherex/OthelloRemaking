@@ -155,7 +155,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OBoard.cpp" />
-    <ClCompile Include="OExceptions.cpp" />
     <ClCompile Include="OMove.cpp" />
     <ClCompile Include="OthelloRemake.cpp" />
     <ClCompile Include="OView.cpp" />
