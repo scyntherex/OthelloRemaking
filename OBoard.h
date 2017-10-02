@@ -1,9 +1,10 @@
 #ifndef __OTHELLOBOARD_H
 #define __OTHELLOBOARD_H
 
+#include "stdafx.h"
 #include <vector>
 #include "OMove.h"
-#include "stdafx.h"
+
 
 const int BOARD_SIZE = 8;
 
@@ -18,7 +19,7 @@ public:
 	You can use the symbols OthelloBoard::Player::BLACK or WHITE instead of
 	1 or -1.
 	*/
-	enum Player {BLACK = 1, WHITE = -1, EMPTY = 0};
+	enum Player { EMPTY = 0, BLACK = 1, WHITE = -1 };
 
 	// Default constructor initializes the board to its starting "new game" state
 	OthelloBoard();
@@ -35,7 +36,7 @@ public:
 	Precondition: the vector is empty.
 	Postcondition: the vector contains all valid moves for the current player.
 	*/
-	void GetPossibleMoves(std::vector<OthelloMove *> *list) const;
+	//void GetPossibleMoves(std::vector<OthelloMove *> *list) const;
 
 	/*
 	Applies a valid move to the board, updating the board state accordingly.
@@ -43,14 +44,14 @@ public:
 	of possible moves returned by GetAllMoves. Make sure you account for changes
 	to the current player, pass count, and board value.
 	*/
-	void ApplyMove(OthelloMove *move);
+	//void ApplyMove(OthelloMove *move);
 
 	/*
 	Undoes the last move applied to the board, restoring it to the state it was
 	in prior to the most recent move (including whose turn it is, what the
 	board value is, and what the pass count is).
 	*/
-	void UndoLastMove();
+	//void UndoLastMove();
 
 	/*
 	Returns a pointer to a vector of all moves applied to this board. The last

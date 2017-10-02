@@ -10,8 +10,8 @@ void OthelloView::PrintBoard(ostream &s) const {
 		s << i;
 
 		for (int j = 0; j <= 7; j++) {
-			s << (mOthelloBoard->mBoard[i][j] == mOthelloBoard->EMPTY ? ' .' :
-				mOthelloBoard->mBoard[i][j] == mOthelloBoard->BLACK ? ' B': ' W');
+			s << (mOthelloBoard->mBoard[i][j] == mOthelloBoard->EMPTY ? " ." :
+				mOthelloBoard->mBoard[i][j] == mOthelloBoard->BLACK ? " B" : " W");
 		}
 		s << endl;
 	}
