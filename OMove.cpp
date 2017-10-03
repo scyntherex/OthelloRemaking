@@ -4,7 +4,3 @@
 OthelloMove::OthelloMove()
 {
 }
-
-OthelloMove::~OthelloMove()
-{
-}
