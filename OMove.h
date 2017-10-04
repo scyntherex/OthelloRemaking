@@ -14,16 +14,16 @@ public:
 	(r, c); OR is the string "pass". [The user will not enter (-1,-1) to pass
 	anymore.]
 	*/
-//	OthelloMove& operator= (const std::string &);
+	OthelloMove& operator= (const std::string &);
 	/*
 	Compares two OthelloMove objects for equality (if rows and cols are same).
 	*/
-//	friend bool operator== (const OthelloMove &lhs, const OthelloMove &rhs);
+	friend bool operator== (const OthelloMove &lhs, const OthelloMove &rhs);
 	/*
 	Converts the OthelloMove into a string representation, one that could be
 	used correctly with operator=(string). Returns "pass" if move is a pass.
 	*/
-//	operator std::string() const;
+	operator std::string() const;
 	// Returns true if the move represents a Pass.
 	// TO DO: fill in this method.
 	inline bool isMovePass() {/* return true if this move is a "pass" */ 
