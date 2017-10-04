@@ -26,7 +26,7 @@ public:
 	operator std::string() const;
 	// Returns true if the move represents a Pass.
 	// TO DO: fill in this method.
-	inline bool isMovePass() {/* return true if this move is a "pass" */ 
+	inline bool isMovePass() const {/* return true if this move is a "pass" */ 
 		return(mRow == -1 && mCol == -1);
 	}
 

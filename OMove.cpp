@@ -36,7 +36,7 @@ bool operator== (const OthelloMove &lhs, const OthelloMove &rhs) {
 }
 
 OthelloMove::operator string() const {
-	if (isMovePass)
+	if (isMovePass())
 		return "PASS^";
 	else
 		return "(" + to_string(mRow) + "," + to_string(mCol) + ")";

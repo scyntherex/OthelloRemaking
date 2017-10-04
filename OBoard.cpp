@@ -14,12 +14,14 @@ OthelloBoard::OthelloBoard()
 
 /*void OthelloBoard::GetPossibleMoves(std::vector<OthelloMove *> *list) const {
 	;
-}
+}*/
 
 void OthelloBoard::ApplyMove(OthelloMove *move) {
-	;
+	if (move->isMovePass()) { mPassCount++; }
+	else;
 }
 
+/*
 void OthelloBoard::UndoLastMove() {
 	;
 }

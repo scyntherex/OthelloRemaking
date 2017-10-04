@@ -44,7 +44,7 @@ public:
 	of possible moves returned by GetAllMoves. Make sure you account for changes
 	to the current player, pass count, and board value.
 	*/
-	//void ApplyMove(OthelloMove *move);
+	void ApplyMove(OthelloMove *move);
 
 	/*
 	Undoes the last move applied to the board, restoring it to the state it was
