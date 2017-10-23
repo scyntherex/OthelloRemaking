@@ -1,56 +1,9 @@
-﻿  OthelloRemake.cpp
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(17): error C2065: 'OthelloBoard': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(17): error C2146: syntax error: missing ';' before identifier 'board'
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(17): error C2065: 'board': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(18): error C2065: 'OthelloView': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(18): error C2146: syntax error: missing ';' before identifier 'v'
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(18): error C2065: 'board': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(18): error C3861: 'v': identifier not found
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(23): error C2065: 'v': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(34): error C2065: 'OthelloMove': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(34): error C2065: 'm': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(34): error C2065: 'board': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(34): error C2228: left of '.CreateMove' must have class/struct/union
-  c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(34): note: type is 'unknown-type'
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(37): error C2065: 'm': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(45): error C2065: 'm': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(46): error C2065: 'board': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(46): error C2228: left of '.ApplyMove' must have class/struct/union
-  c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(46): note: type is 'unknown-type'
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(46): error C2065: 'm': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(50): error C2065: 'm': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(50): error C2541: 'delete': cannot delete objects that are not pointers
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(53): error C2061: syntax error: identifier 'OthelloException'
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(53): error C2310: catch handlers must specify one type
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(54): error C2065: 's': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(54): error C2228: left of '.what' must have class/struct/union
-  c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(54): note: type is 'unknown-type'
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(55): error C2065: 'm': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(55): error C2541: 'delete': cannot delete objects that are not pointers
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(60): error C2065: 'OthelloMove': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(60): error C2065: 'passCurrPlayer': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(60): error C2065: 'board': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(60): error C2228: left of '.CreateMove' must have class/struct/union
-  c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(60): note: type is 'unknown-type'
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(61): error C2065: 'passCurrPlayer': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(62): error C2065: 'board': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(62): error C2228: left of '.ApplyMove' must have class/struct/union
-  c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(62): note: type is 'unknown-type'
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(62): error C2065: 'passCurrPlayer': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(63): error C2065: 'OthelloMove': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(63): error C2065: 'passNextPlayer': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(63): error C2065: 'board': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(63): error C2228: left of '.CreateMove' must have class/struct/union
-  c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(63): note: type is 'unknown-type'
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(64): error C2065: 'passNextPlayer': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(65): error C2065: 'board': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(65): error C2228: left of '.ApplyMove' must have class/struct/union
-  c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(65): note: type is 'unknown-type'
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(65): error C2065: 'passNextPlayer': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(66): error C2065: 'passCurrPlayer': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(66): error C2541: 'delete': cannot delete objects that are not pointers
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(67): error C2065: 'passNextPlayer': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(67): error C2541: 'delete': cannot delete objects that are not pointers
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(71): error C2065: 'board': undeclared identifier
-c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(71): error C2228: left of '.IsFinished' must have class/struct/union
-  c:\users\rone\source\repos\othelloremaking\othelloremake.cpp(71): note: type is 'unknown-type'
+﻿  OBoard.cpp
+  Generating Code...
+  Compiling...
+  OthelloRemake.cpp
+  OView.cpp
+  OMove.cpp
+  Generating Code...
+  OthelloRemake.vcxproj -> C:\Users\Rone\Source\Repos\OthelloRemaking\Debug\OthelloRemake.exe
+  OthelloRemake.vcxproj -> C:\Users\Rone\Source\Repos\OthelloRemaking\Debug\OthelloRemake.pdb (Partial PDB)

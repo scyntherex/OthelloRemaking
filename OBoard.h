@@ -2,8 +2,8 @@
 #define __OTHELLOBOARD_H
 
 #include "stdafx.h"
-#include <vector>
 #include "OMove.h"
+#include <vector>
 
 
 const int BOARD_SIZE = 8;
@@ -36,7 +36,7 @@ public:
 	Precondition: the vector is empty.
 	Postcondition: the vector contains all valid moves for the current player.
 	*/
-	//void GetPossibleMoves(std::vector<OthelloMove *> *list) const;
+	void GetPossibleMoves(std::vector<OthelloMove *> *list) const;
 
 	/*
 	Applies a valid move to the board, updating the board state accordingly.
@@ -51,7 +51,7 @@ public:
 	in prior to the most recent move (including whose turn it is, what the
 	board value is, and what the pass count is).
 	*/
-	//void UndoLastMove();
+	void UndoLastMove();
 
 	/*
 	Returns a pointer to a vector of all moves applied to this board. The last
